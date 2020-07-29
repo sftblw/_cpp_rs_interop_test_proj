@@ -3,6 +3,6 @@ project(CppRsInteropTest)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(MyLibProjCMakeTargetName library.cpp library.h)
+add_library(MyLibProjCMakeTargetName library.cpp library.h Calculator.cpp Calculator.h)
 
 install(TARGETS MyLibProjCMakeTargetName DESTINATION .)
