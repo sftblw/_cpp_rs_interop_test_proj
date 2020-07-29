@@ -8,7 +8,7 @@ extern "C" {
         std::cout << "such debugging" << std::endl;
     }
 
-    int32_t meaning_of_life() {
+    uint32_t meaning_of_life() {
         int seven = 7;
         int six = 6;
         int meaning = seven * six;
